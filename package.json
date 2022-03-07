@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --open --mode development --hot",
     "test": "jest",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --quiet"
   },
   "author": "",
   "license": "ISC",
